@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18737872297EDC42007ED548 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18737871297EDC42007ED548 /* GoogleService-Info.plist */; };
+		18755AEF298017D0009EDE73 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18755AEE298017D0009EDE73 /* ChatModel.swift */; };
+		18755AF129802167009EDE73 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18755AF029802167009EDE73 /* Constant.swift */; };
 		18C18FC229791A990097E071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C18FC129791A990097E071 /* AppDelegate.swift */; };
 		18C18FC429791A990097E071 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C18FC329791A990097E071 /* SceneDelegate.swift */; };
-		18C18FC629791A990097E071 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C18FC529791A990097E071 /* ViewController.swift */; };
 		18C18FC929791A990097E071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C18FC729791A990097E071 /* Main.storyboard */; };
 		18C18FCB29791A9C0097E071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C18FCA29791A9C0097E071 /* Assets.xcassets */; };
 		18C18FCE29791A9C0097E071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C18FCC29791A9C0097E071 /* LaunchScreen.storyboard */; };
+		18C18FD629791B120097E071 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C18FD529791B120097E071 /* ChatVC.swift */; };
+		18C18FD929791BC40097E071 /* ChatTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C18FD729791BC40097E071 /* ChatTblCell.swift */; };
+		18C18FDA29791BC40097E071 /* ChatTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C18FD829791BC40097E071 /* ChatTblCell.xib */; };
+		18C2A499298173FA00008BE2 /* ChatListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A498298173FA00008BE2 /* ChatListController.swift */; };
+		18C2A49C2981754C00008BE2 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C2A49A2981754C00008BE2 /* ChatListCell.swift */; };
+		18C2A49D2981754C00008BE2 /* ChatListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C2A49B2981754C00008BE2 /* ChatListCell.xib */; };
+		30644FE47C2D13813FEA65FE /* Pods_IndoChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50CE918AC12E4A69711AA19 /* Pods_IndoChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18737871297EDC42007ED548 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18755AEE298017D0009EDE73 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		18755AF029802167009EDE73 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		18C18FBE29791A990097E071 /* IndoChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndoChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C18FC129791A990097E071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18C18FC329791A990097E071 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		18C18FC529791A990097E071 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18C18FC829791A990097E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C18FCA29791A9C0097E071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C18FCD29791A9C0097E071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C18FCF29791A9C0097E071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C18FD529791B120097E071 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		18C18FD729791BC40097E071 /* ChatTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTblCell.swift; sourceTree = "<group>"; };
+		18C18FD829791BC40097E071 /* ChatTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTblCell.xib; sourceTree = "<group>"; };
+		18C2A498298173FA00008BE2 /* ChatListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListController.swift; sourceTree = "<group>"; };
+		18C2A49A2981754C00008BE2 /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		18C2A49B2981754C00008BE2 /* ChatListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListCell.xib; sourceTree = "<group>"; };
+		52C98EBD00E5142F48F04D92 /* Pods-IndoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoChat.release.xcconfig"; path = "Target Support Files/Pods-IndoChat/Pods-IndoChat.release.xcconfig"; sourceTree = "<group>"; };
+		706D0349DC503AA3BCB9C195 /* Pods-IndoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndoChat.debug.xcconfig"; path = "Target Support Files/Pods-IndoChat/Pods-IndoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		F50CE918AC12E4A69711AA19 /* Pods_IndoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndoChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30644FE47C2D13813FEA65FE /* Pods_IndoChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +61,11 @@
 		18C18FB529791A990097E071 = {
 			isa = PBXGroup;
 			children = (
+				18737871297EDC42007ED548 /* GoogleService-Info.plist */,
 				18C18FC029791A990097E071 /* IndoChat */,
 				18C18FBF29791A990097E071 /* Products */,
+				A2D944BD33EE7A1770734D67 /* Pods */,
+				54FC99626237E72267CB34A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,47 @@
 		18C18FC029791A990097E071 /* IndoChat */ = {
 			isa = PBXGroup;
 			children = (
+				18F6557E29840327007B6FB9 /* Chat_file */,
 				18C18FC129791A990097E071 /* AppDelegate.swift */,
 				18C18FC329791A990097E071 /* SceneDelegate.swift */,
-				18C18FC529791A990097E071 /* ViewController.swift */,
 				18C18FC729791A990097E071 /* Main.storyboard */,
 				18C18FCA29791A9C0097E071 /* Assets.xcassets */,
 				18C18FCC29791A9C0097E071 /* LaunchScreen.storyboard */,
 				18C18FCF29791A9C0097E071 /* Info.plist */,
 			);
 			path = IndoChat;
+			sourceTree = "<group>";
+		};
+		18F6557E29840327007B6FB9 /* Chat_file */ = {
+			isa = PBXGroup;
+			children = (
+				18755AEE298017D0009EDE73 /* ChatModel.swift */,
+				18755AF029802167009EDE73 /* Constant.swift */,
+				18C2A498298173FA00008BE2 /* ChatListController.swift */,
+				18C2A49A2981754C00008BE2 /* ChatListCell.swift */,
+				18C2A49B2981754C00008BE2 /* ChatListCell.xib */,
+				18C18FD529791B120097E071 /* ChatVC.swift */,
+				18C18FD829791BC40097E071 /* ChatTblCell.xib */,
+				18C18FD729791BC40097E071 /* ChatTblCell.swift */,
+			);
+			path = Chat_file;
+			sourceTree = "<group>";
+		};
+		54FC99626237E72267CB34A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50CE918AC12E4A69711AA19 /* Pods_IndoChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2D944BD33EE7A1770734D67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				706D0349DC503AA3BCB9C195 /* Pods-IndoChat.debug.xcconfig */,
+				52C98EBD00E5142F48F04D92 /* Pods-IndoChat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18C18FD229791A9C0097E071 /* Build configuration list for PBXNativeTarget "IndoChat" */;
 			buildPhases = (
+				78EA71FFAF0EDF004235A634 /* [CP] Check Pods Manifest.lock */,
 				18C18FBA29791A990097E071 /* Sources */,
 				18C18FBB29791A990097E071 /* Frameworks */,
 				18C18FBC29791A990097E071 /* Resources */,
+				9E286878E2D02D6ED61EA90C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,20 +185,70 @@
 			files = (
 				18C18FCE29791A9C0097E071 /* LaunchScreen.storyboard in Resources */,
 				18C18FCB29791A9C0097E071 /* Assets.xcassets in Resources */,
+				18C18FDA29791BC40097E071 /* ChatTblCell.xib in Resources */,
 				18C18FC929791A990097E071 /* Main.storyboard in Resources */,
+				18737872297EDC42007ED548 /* GoogleService-Info.plist in Resources */,
+				18C2A49D2981754C00008BE2 /* ChatListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78EA71FFAF0EDF004235A634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndoChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E286878E2D02D6ED61EA90C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoChat/Pods-IndoChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IndoChat/Pods-IndoChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IndoChat/Pods-IndoChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18C18FBA29791A990097E071 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C18FC629791A990097E071 /* ViewController.swift in Sources */,
+				18755AEF298017D0009EDE73 /* ChatModel.swift in Sources */,
+				18C2A49C2981754C00008BE2 /* ChatListCell.swift in Sources */,
+				18C18FD629791B120097E071 /* ChatVC.swift in Sources */,
 				18C18FC229791A990097E071 /* AppDelegate.swift in Sources */,
+				18C2A499298173FA00008BE2 /* ChatListController.swift in Sources */,
+				18C18FD929791BC40097E071 /* ChatTblCell.swift in Sources */,
 				18C18FC429791A990097E071 /* SceneDelegate.swift in Sources */,
+				18755AF129802167009EDE73 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +392,7 @@
 		};
 		18C18FD329791A9C0097E071 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 706D0349DC503AA3BCB9C195 /* Pods-IndoChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +420,7 @@
 		};
 		18C18FD429791A9C0097E071 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C98EBD00E5142F48F04D92 /* Pods-IndoChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
